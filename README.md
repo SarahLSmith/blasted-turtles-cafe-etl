@@ -49,7 +49,5 @@ cd database && python setup.py
   the first call. Remove the `break` to keep the menu running.
 - `run` loads `./csv/inventory.csv`, but the file is `csv/Inventory.csv`.
   This works on Windows, which ignores case, but not on Linux.
-- The TODO to save products and couriers back to CSV on exit is not
-  finished. The save calls are there, but the edits aren't yet made in
-  the app.
+- `run` has a TODO to save products and couriers back to CSV on exit.
 - `testing.py` is empty.
